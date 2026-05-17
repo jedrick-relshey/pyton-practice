@@ -1,11 +1,6 @@
-firstName = "jedrick"
-lastName = "Miclat"
-number = 10
-money = 25.50
-isTall = False
+firstNumber = int(input("Enter Your First Number:"))
+secondNumber = int(input("Enter your Second Number:"))
 
-print(firstName + " " + lastName)
-print(money)
-print(isTall)
+result = firstNumber - secondNumber
 
-
+print(str(firstNumber) + " - " + str(secondNumber) + " = " + str(result))
