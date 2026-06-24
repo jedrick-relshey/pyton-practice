@@ -42,5 +42,5 @@ from operator import truediv
 #print(secret_number)
 #print("Well done!")
 
-b = "jedjed. miclat"
-print(b[-5:])
+first_Name = input("Enter your Name: ")
+print("Hi ", first_Name)
