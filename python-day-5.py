@@ -42,5 +42,7 @@ from operator import truediv
 #print(secret_number)
 #print("Well done!")
 
-first_Name = input("Enter your Name: ")
-print("Hi ", first_Name)
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+
+print(int(num1) + int(num2))
