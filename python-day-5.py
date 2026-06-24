@@ -42,11 +42,11 @@ from operator import truediv
 #print(secret_number)
 #print("Well done!")
 
-age = int(input("Enter your age: "))
+grade = float(input("Enter your grade: "))
 
-if age >= 18:
-    print("Pewde na")
-elif age < 18:
-    print("Bata kapa")
-else:
-    print("edi wow")
+if grade >= 90:
+    print("Excellent")
+elif grade >= 75:
+    print("Passed")
+elif grade < 75:
+    print("Failed")
