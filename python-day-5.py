@@ -42,7 +42,11 @@ from operator import truediv
 #print(secret_number)
 #print("Well done!")
 
-num1 = input("Enter a number: ")
-num2 = input("Enter another number: ")
+age = int(input("Enter your age: "))
 
-print(int(num1) + int(num2))
+if age >= 18:
+    print("Pewde na")
+elif age < 18:
+    print("Bata kapa")
+else:
+    print("edi wow")
