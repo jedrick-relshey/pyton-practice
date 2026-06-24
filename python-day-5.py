@@ -42,11 +42,18 @@ from operator import truediv
 #print(secret_number)
 #print("Well done!")
 
-x = "jedrruck"
+x = 1
+z = 2.9
+y = 1j
 
-def myfunc():
-    global x
-    x = "miclat"
+a = float(x)
+b = int(z)
+c = complex(x)
 
-myfunc()
-print("Hi " + x)
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
