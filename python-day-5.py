@@ -42,8 +42,11 @@ from operator import truediv
 #print(secret_number)
 #print("Well done!")
 
-age = 12
-
-while age < 18:
-    print("Still Young : " + str(age))
-    age = age + 1
+print("Crush ka ba ng Crush mo?")
+while True:
+    answer = input("Answer : ")
+    if answer == "hindi":
+        print("Aray ko po!")
+        break
+    else:
+        print("Wee?")
