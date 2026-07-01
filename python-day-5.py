@@ -69,9 +69,32 @@ from operator import truediv
 # else:
 #     print("Too Young")
 
-bag = ["Wallet", "ballpen", "computer"]
+# bag = ["Wallet", "ballpen", "computer"]
+#
+# if "gun" in bag or "ballpen" in bag:
+#     print("huli")
+# else:
+#     print("PAsok")
 
-if "gun" in bag or "ballpen" in bag:
-    print("huli")
+gradeOne = float(input("Math: "))
+gradeTwo = float(input("Programming: "))
+gradeThree = float(input("Science: "))
+
+average = (gradeOne + gradeTwo + gradeThree ) / 3
+
+print("The Average is: " + str(average))
+
+if average > 100 or average <= 50:
+    print("Invalid grade")
+elif average >= 98:
+    print("With Highest Honor")
+elif average >= 95:
+    print("With High Honor")
+elif average >= 90:
+    print("With Honor")
+elif average >= 75:
+    print("Passed")
+elif average >= 51:
+    print("Failed")
 else:
-    print("PAsok")
+    print("Whats that?")
