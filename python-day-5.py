@@ -99,10 +99,21 @@ from operator import truediv
 # else:
 #     print("Whats that?")
 
-age = 12
+# age = 12
+#
+# while age < 18:
+#     print("Still Young : " + str(age))
+#     age = age + 1
+# else:
+#     print("Legal Age : " + str(age))
 
-while age < 18:
-    print("Still Young : " + str(age))
-    age = age + 1
-else:
-    print("Legal Age : " + str(age))
+# studentID = [20000123,20000124,20000125,20000126,]
+# i = 0
+#
+# while i < len(studentID):
+#     print(studentID[i])
+#     i = i + 1
+
+while True:
+    print("Hello")
+    break
