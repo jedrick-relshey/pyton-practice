@@ -148,9 +148,14 @@ from operator import truediv
 # else:
 #     print("Goodbye!")
 
-fruits = ['apple', 'banana', 'orange', 'strawberry']
+# fruits = ['apple', 'banana', 'orange', 'strawberry']
+#
+# for x in fruits:
+#     print(x)
+#     if x == "orange":
+#         break
 
-for x in fruits:
-    print(x)
-    if x == "orange":
-        break
+# for x in range(5):
+#     for y in range(5):
+#         print("1", end="")
+#     print()
