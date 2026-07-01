@@ -124,13 +124,26 @@ from operator import truediv
 #     else:
 #         print("Wee")
 
-numbers = [1,2,3,4,5,6,7,8,9,10]
+#numbers = [1,2,3,4,5,6,7,8,9,10]
 
-i = 0
+# i = 0
+#
+# while i < len(numbers):
+#     if(numbers[i] % 2 == 0):
+#         print("Even Number : " + str(numbers[i]))
+#     else:
+#         print("Odd Number  : " + str(numbers[i]))
+#     i = i + 1
 
-while i < len(numbers):
-    if(numbers[i] % 2 == 0):
-        print("Even Number : " + str(numbers[i]))
+lives = 3
+correctAnswer = 100
+
+while lives > 0:
+    answer = int(input("75 + 25 = ? "))
+    if answer == correctAnswer:
+        print("Ang galing mo!")
+        break
     else:
-        print("Odd Number  : " + str(numbers[i]))
-    i = i + 1
+        lives = lives - 1
+else:
+    print("Goodbye!")
