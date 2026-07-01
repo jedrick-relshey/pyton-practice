@@ -42,11 +42,12 @@ from operator import truediv
 #print(secret_number)
 #print("Well done!")
 
-print("Crush ka ba ng Crush mo?")
-while True:
-    answer = input("Answer : ")
-    if answer == "hindi":
-        print("Aray ko po!")
-        break
-    else:
-        print("Wee?")
+age = int(input("Enter your Password: "))
+if age >= 18:
+    print("Legal Age")
+elif age >= 13:
+    print("Teenager")
+elif age >= 5:
+    print("Child")
+else:
+    print("Not legal age")
