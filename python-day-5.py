@@ -104,3 +104,5 @@ age = 12
 while age < 18:
     print("Still Young : " + str(age))
     age = age + 1
+else:
+    print("Legal Age : " + str(age))
