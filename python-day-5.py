@@ -159,3 +159,25 @@ from operator import truediv
 #     for y in range(5):
 #         print("1", end="")
 #     print()
+
+# nameOfstudents = [
+#     ["Jedrick", "Miclat"],
+#     ["Zaijan", "Cutchon"],
+#     ["Jacob", "Mercolita"]
+# ]
+#
+# for x in nameOfstudents:
+#     for i in x:
+#         print(i)
+#     print()
+
+students = [
+    ["BSIT",["David","Alenere"]],
+    ["BSCS",["Jaymar", "Emman", "patrtick"]]
+]
+
+for i in students:
+    print(i[0])
+    for x in i[1]:
+        print(x)
+    print()
