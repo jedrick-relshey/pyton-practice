@@ -135,15 +135,22 @@ from operator import truediv
 #         print("Odd Number  : " + str(numbers[i]))
 #     i = i + 1
 
-lives = 3
-correctAnswer = 100
+# lives = 3
+# correctAnswer = 100
+#
+# while lives > 0:
+#     answer = int(input("75 + 25 = ? "))
+#     if answer == correctAnswer:
+#         print("Ang galing mo!")
+#         break
+#     else:
+#         lives = lives - 1
+# else:
+#     print("Goodbye!")
 
-while lives > 0:
-    answer = int(input("75 + 25 = ? "))
-    if answer == correctAnswer:
-        print("Ang galing mo!")
+fruits = ['apple', 'banana', 'orange', 'strawberry']
+
+for x in fruits:
+    print(x)
+    if x == "orange":
         break
-    else:
-        lives = lives - 1
-else:
-    print("Goodbye!")
