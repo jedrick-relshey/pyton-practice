@@ -48,6 +48,15 @@ from operator import truediv
 # else:
 #     print("Legal age.")
 
+# notebook = False
+# ballpen = True
+# ruler = False
+#
+# if notebook or ballpen or ruler:
+#     print("Pasok kana")
+# else:
+#     print("Bawal")
+
 # age = int(input("Enter your Age: "))
 # height = int(input("Enter your Height: "))
 #
@@ -60,11 +69,9 @@ from operator import truediv
 # else:
 #     print("Too Young")
 
-notebook = False
-ballpen = True
-ruler = False
+bag = ["Wallet", "ballpen", "computer"]
 
-if notebook or ballpen or ruler:
-    print("Pasok kana")
+if "gun" in bag or "ballpen" in bag:
+    print("huli")
 else:
-    print("Bawal")
+    print("PAsok")
