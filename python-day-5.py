@@ -42,15 +42,29 @@ from operator import truediv
 #print(secret_number)
 #print("Well done!")
 
-age = int(input("Enter your Age: "))
-height = int(input("Enter your Height: "))
+#
+# if not age >= 18:
+#     print("Sorry, you are under 18.")
+# else:
+#     print("Legal age.")
 
-if age >= 18:
-    if height >= 176:
-        print("Tall and Legal Age")
-    elif height >= 150:
-        print("Average ang Legal Age")
-    else:
-        print("Not enough height to age")
+# age = int(input("Enter your Age: "))
+# height = int(input("Enter your Height: "))
+#
+# if age >= 18 and height >= 176:
+#     print("Tall and Legal Age")
+# elif age >= 18 and height >= 150:
+#     print("Average ang Legal Age")
+# elif age >= 18:
+#     print("Not enough height to age")
+# else:
+#     print("Too Young")
+
+notebook = False
+ballpen = True
+ruler = False
+
+if notebook or ballpen or ruler:
+    print("Pasok kana")
 else:
-    print("Too Young")
+    print("Bawal")
