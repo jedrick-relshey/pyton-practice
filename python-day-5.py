@@ -114,6 +114,23 @@ from operator import truediv
 #     print(studentID[i])
 #     i = i + 1
 
-while True:
-    print("Hello")
-    break
+# print("Crush ka ba? ")
+#
+# while True:
+#     answer = input("Answer : ")
+#     if answer == "hindi":
+#         print("Aray ko!")
+#         break
+#     else:
+#         print("Wee")
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+i = 0
+
+while i < len(numbers):
+    if(numbers[i] % 2 == 0):
+        print("Even Number : " + str(numbers[i]))
+    else:
+        print("Odd Number  : " + str(numbers[i]))
+    i = i + 1
